@@ -1,0 +1,95 @@
+
+
+
+#header-nav{
+	background-color: #008B8B;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-header a:hover, .navbar-header a:focus{
+	text-decoration: none;
+}
+
+body{
+  background-color:#00FFFF;
+  font-size:16px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1{
+	color:black;
+	margin-left: 50px;
+	padding-top: 40px;
+	
+}
+
+.menu{
+	color:black;
+}
+
+
+
+.nav-link{
+	color:black;
+	font-size:20px;
+}
+
+#uno{
+	/*background-color: #00FFFF;*/
+}
+
+#letra{
+	font-size:80px;
+	color:orange;
+	padding-left: 115px;
+	font-family: 'Righteous', cursive;
+}
+
+
+#swimmingtile, #shows, #map, #rooms{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#swimmingtile:hover, #shows:hover, #map:hover, #rooms:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#swimmingtile {
+  background: url('img/piscina.jpg') no-repeat;
+  background-position: center;
+}
+#shows {
+  background: url('img/show.jpg') no-repeat;
+  background-position: center;
+}
+
+#rooms{
+  background: url('img/rooms.jpg') no-repeat;
+  background-position: center;
+}
+#swimmingtile span, #shows span,  #rooms span, #map span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+footer{
+	background-color: #69DB4F;
+}
+
+.oscuro{ 
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+}

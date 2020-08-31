@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Hotel Juanma</title>
+
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+	</head>
+
+<body>
+	<!-- <body style="background-color: #00FFFF;"> -->
+
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+      		<div class="container">
+      			<div class="navbar-header">
+	      				<a href="index.html" class="float-right">
+	      					<h1 id="letra">Hotel Juanma</h1>
+	      				</a>
+      				<div class="float-left"> 
+      					<a href="index.html">
+      						<img src="https://i.pinimg.com/originals/cb/a4/fd/cba4fdff18fe7e587119fc812a59060e.png" width="150", height="150">
+      					</a>
+      				</div>
+
+      				<ul class="nav nav-pills">
+      			</div>
+
+      		</div>
+
+	      	<div class="nav justify-content-center container">
+				<li class="nav-item">
+				    <a class="nav-link" href="index.html">Main page</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="rooms.html"><span  data-toggle="tooltip" data-placement="top" title="Look at the different types of rooms and choose the one that fits you the most">Rooms</span></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="activities.html"><span data-toggle="tooltip" data-placement="top" title="Have a great time in one of the activities we offer">Activities</span></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="contact.html"><span data-toggle="tooltip" data-placement="top" title="Any doubts? Contact us!">Contact</span></a>
+				  </li>
+
+          <li class="nav-item">
+            <button type="button" class="btn btn-dark" onclick="changeBg()">Day/night mode</button>
+          </li>
+				</ul>
+
+				</div>
+
+    	</nav>
+      </header>
+
+    
+    <div class="container">
+    	<div id="uno" max-width:100%>
+      		<img src="https://www.steigenberger.com/cache/images/562_SHR_Luxor_NilePa_0056834a3b62425d31b369-1-1-1-1-1-1.jpg" style="width: 100%;"/>
+    	</div>
+      <hr/>
+    	<div class="row">
+    		<div class="col-lg-4 col-sm-6 col-xs-12">
+    			<a href="swimmingpools.html"><div id="swimmingtile">
+            <span>Swimming pools</span></div></a>
+ 
+    		</div>
+
+
+    		<div class="col-lg-4 col-sm-6 col-xs-12">
+    			<a href="activities.html"><div id="shows">
+            <span>Activities</span></div></a>
+ 
+    		</div>
+
+    		<div class="col-lg-4 col-sm-6 col-xs-12">
+    			<a href="rooms.html"><div id="rooms"><span>Rooms</span></div></a>
+ 
+    		</div>
+
+    	</div>
+  </div>
+  
+  <footer class="panelfooter">
+  	<div class="container">
+  		<div class="row">
+			<div class="col-md-4 d-flex flex-column">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.google.com" target="_blank">Google+</a>
+            </div>
+            <div class="col-md-4 align-items-center">
+                
+                    <h3>Address</h3>
+                    <p><span class="oi oi-home fotter-address-icon"></span>Random Street 25, Mars</p>
+                    <p><span class="oi oi-phone fotter-address-icon"></span>+88 888888888</p>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-end">
+                <a href="./rooms.html"><span  data-toggle="tooltip" data-placement="top" title="Look at the different types of rooms and choose the one that fits you the most">Rooms</span></a>
+                <a href="./activities.html"><span data-toggle="tooltip" data-placement="top" title="Have a great time in one of the activities we offer">Activities</span></a>
+                <a href="./contact.html"><span data-toggle="tooltip" data-placement="top" title="Any doubts? Contact us!">Contact</span></a>
+            </div>
+  		</div>
+  	</div>
+
+  </footer>
+	<script src="script.js"></script>
+  <script type="text/javascript"> 
+      function changeBg() { 
+        var cuerpoweb = document.body; 
+        cuerpoweb.classList.toggle("oscuro"); 
+      } 
+    </script>
+
+
+
+    
+
+</body>
+</html>
